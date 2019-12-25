@@ -41,6 +41,7 @@ int main()
 		case 3: 
 		{
 			cout << "3" << endl;
+			f.mul();
 			system("pause");
 			break;
 		}
