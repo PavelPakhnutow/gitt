@@ -27,34 +27,41 @@ int main()
 		{
 		case 1: 
 		{
+			cout << "Function sum" << endl;
 			f.sum();
 			break;
 		}
 
 		case 2: 
 		{
-			f.sub(); //
+			cout << "Function sub" << endl;
+			f.sub(); 
 			break;
 		}
 		case 3: 
 		{
+			cout << "3" << endl;
 			system("pause");
 			break;
 		}
 		case 4:
 		{
+			cout << "4" << endl;
 			system("pause");
 			break;
 		}
 		case 0: 
 		{
+
 			break;
 		}
 		default: 
 		{
+
 			system("pause");
 		}
 		}
+
 	} while (n != 0); 
 
 	return 0;
