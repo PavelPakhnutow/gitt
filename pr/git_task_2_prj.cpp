@@ -27,34 +27,42 @@ int main()
 		{
 		case 1: 
 		{
+			cout << "Function sum" << endl;
 			f.sum();
 			break;
 		}
 
 		case 2: 
 		{
-			f.sub(); //
+			cout << "Function sub" << endl;
+			f.sub(); 
 			break;
 		}
 		case 3: 
 		{
-			system("pause");
+			cout << "Function multiplication" << endl;
+			f.mul();
 			break;
 		}
 		case 4:
 		{
-			system("pause");
+			cout << "Function division" << endl;
+			f.div();
 			break;
 		}
 		case 0: 
 		{
+
 			break;
 		}
 		default: 
 		{
+			cout << "ERROR! incorrect input." << endl;
 			system("pause");
+			system("cls");
 		}
 		}
+
 	} while (n != 0); 
 
 	return 0;

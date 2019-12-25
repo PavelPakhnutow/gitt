@@ -8,6 +8,8 @@ private:
 public:
 	void sum();
 	void sub();
+	void mul();
+	void div();
 };
 
 #endif // !_CLASS_H_
