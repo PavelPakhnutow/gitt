@@ -40,15 +40,14 @@ int main()
 		}
 		case 3: 
 		{
-			cout << "3" << endl;
+			cout << "Function multiplication" << endl;
 			f.mul();
-			system("pause");
 			break;
 		}
 		case 4:
 		{
-			cout << "4" << endl;
-			system("pause");
+			cout << "Function division" << endl;
+			f.div();
 			break;
 		}
 		case 0: 
