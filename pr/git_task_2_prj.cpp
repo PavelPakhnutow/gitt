@@ -33,7 +33,7 @@ int main()
 
 		case 2: 
 		{
-			system("pause");
+			f.sub();
 			break;
 		}
 		case 3: 
