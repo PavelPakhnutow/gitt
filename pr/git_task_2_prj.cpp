@@ -57,8 +57,9 @@ int main()
 		}
 		default: 
 		{
-
+			cout << "ERROR! incorrect input." << endl;
 			system("pause");
+			system("cls");
 		}
 		}
 
